@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bardi — Artist</title>
+    <meta name="description" content="Portfolio of Bardi, artist based in Algiers, Algeria">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <a href="/" class="logo">Bardi</a>
+        <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">
+            <span class="menu-line"></span>
+            <span class="menu-line"></span>
+        </button>
+    </header>
+
+    <nav class="nav-overlay" aria-hidden="true">
+        <button class="nav-close" aria-label="Close menu">
+            <span class="menu-line"></span>
+            <span class="menu-line"></span>
+        </button>
+        <ul class="nav-list">
+            <li><a href="#works">Works</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-meta">
+            <p>Algiers, Algeria</p>
+        </div>
+    </nav>
+
+    <main>
+        <section id="works" class="works">
+            <div class="works-header">
+                <h1>Works</h1>
+            </div>
+            <div class="gallery">
+                <article class="artwork">
+                    <button class="artwork-link" aria-label="View AMBIENT">
+                        <div class="artwork-image">
+                            <img src="images/5.JPG" alt="Artwork 1" loading="lazy">
+                        </div>
+                    </button>
+                    <div class="artwork-info">
+                        <h2>AMBIENT</h2>
+                        <p>2022</p>
+                        <p>Acrylics on canvas, 380x1000cm</p>
+                    </div>
+                </article>
+                <article class="artwork">
+                    <button class="artwork-link" aria-label="View A DAY IN THE COUNTRYSIDE">
+                        <div class="artwork-image">
+                            <img src="images/6.JPG" alt="Artwork 2" loading="lazy">
+                        </div>
+                    </button>
+                    <div class="artwork-info">
+                        <h2>A DAY IN THE COUNTRYSIDE</h2>
+                        <p>2022</p>
+                        <p>Acrylics on 21 wooden panels, 270x780cm</p>
+                    </div>
+                </article>
+                <article class="artwork">
+                    <button class="artwork-link" aria-label="View SISTERS">
+                        <div class="artwork-image">
+                            <img src="images/7.JPG" alt="Artwork 3" loading="lazy">
+                        </div>
+                    </button>
+                    <div class="artwork-info">
+                        <h2>SISTERS</h2>
+                        <p>2021</p>
+                        <p>Acrylics on linen, 180x400cm</p>
+                    </div>
+                </article>
+                <article class="artwork">
+                    <button class="artwork-link" aria-label="View VARIMPRE / MAKÓWKA">
+                        <div class="artwork-image">
+                            <img src="images/8.JPG" alt="Artwork 4" loading="lazy">
+                        </div>
+                    </button>
+                    <div class="artwork-info">
+                        <h2>VARIMPRE / MAKÓWKA</h2>
+                        <p>2022</p>
+                        <p>Acrylics on 4 canvases, 180x500cm</p>
+                    </div>
+                </article>
+                <article class="artwork">
+                    <button class="artwork-link" aria-label="View UNTITLED LANDSCAPES 1&2">
+                        <div class="artwork-image">
+                            <img src="images/9.JPG" alt="Artwork 5" loading="lazy">
+                        </div>
+                    </button>
+                    <div class="artwork-info">
+                        <h2>UNTITLED LANDSCAPES 1&2</h2>
+                        <p>2022</p>
+                        <p>Acrylics on linen (diptych), 2x180x250cm</p>
+                    </div>
+                </article>
+                <article class="artwork">
+                    <button class="artwork-link" aria-label="View UNTITLED LANDSCAPES 3">
+                        <div class="artwork-image">
+                            <img src="images/10.JPG" alt="Artwork 6" loading="lazy">
+                        </div>
+                    </button>
+                    <div class="artwork-info">
+                        <h2>UNTITLED LANDSCAPES 3</h2>
+                        <p>2022</p>
+                        <p>Acrylics on linen, 180x250cm</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="about-content">
+                <h2>About</h2>
+                <p>Bardi is an artist based in Algiers, Algeria. Working across painting, drawing, and mixed media, the practice explores themes of memory, space, and the quiet moments between.</p>
+                <p>Through a reductive approach, each work seeks to strip away the unnecessary, leaving only what feels essential.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="contact-content">
+                <h2>Contact</h2>
+                <address>
+                    <p><a href="mailto:hello@bardi.art">hello@bardi.art</a></p>
+                    <p>Algiers, Algeria</p>
+                </address>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Bardi</p>
+    </footer>
+
+    <div class="lightbox" aria-hidden="true">
+        <button class="lightbox-close" aria-label="Close">
+            <span class="menu-line"></span>
+            <span class="menu-line"></span>
+        </button>
+        <div class="lightbox-content">
+            <img src="" alt="" class="lightbox-image">
+        </div>
+        <div class="lightbox-info">
+            <h2></h2>
+            <p></p>
+            <p></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
